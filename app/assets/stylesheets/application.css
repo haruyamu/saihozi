@@ -1,0 +1,220 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contents {
+  max-width: 1440px;
+  height: 100vh;
+}
+
+.header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "IM Fell DW Pica SC", serif;
+  background: black;
+  color: white;
+}
+.header_li {
+  margin-right: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.header_li:hover {
+  text-decoration: underline;
+  opacity: 0.7;
+}
+.header_ul {
+  display: flex;
+  list-style: none;
+  font-size: 18px;
+}
+
+.header-left {
+  margin-left: 40px;
+  font-size: 48px;
+}
+.header_link {
+  text-decoration: none;
+  color: white;
+}
+.reservation {
+  margin-right: 30px;
+}
+.logo {
+  width: 100%;
+  height: 600px;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.upper {
+  background-image: url("/images/logo.jpeg");
+  height: 700px;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+}
+.inner_text {
+  position: relative;
+  font-weight: bold;
+  color: white;
+  opacity: 0.9;
+  font-size: 50px;
+  left: 70%;
+  top: 70%;
+  height: 30%;
+}
+.center {
+  background-color: #f6f6f6;
+  padding: 44px 0;
+  text-align: center;
+}
+.bottom {
+  padding: 44px 0;
+  margin: 0 auto;
+  max-width: 755px;
+  text-align: center;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro",
+    "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝",
+    "MS PMincho", "ＭＳ 明朝", serif;
+}
+.title {
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro",
+    "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝",
+    "MS PMincho", "ＭＳ 明朝", serif;
+  color: #c09100;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.detail {
+  letter-spacing: 1px;
+}
+.history {
+  line-height: 1.6;
+  margin-bottom: 20px;
+  /* word-wrap: break-word; */
+  text-align: left;
+}
+.koke_img {
+  display: flex;
+  padding: 20px 50px 20px;
+  justify-content: space-between;
+  height: 400px;
+}
+.koke {
+  width: 48%;
+}
+.reserve {
+  background-image: url("/images/koke3.jpeg");
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+}
+.reserve_btn {
+  position: relative;
+  top: 20%;
+  left: 20%;
+  border: 1px black solid;
+  padding: 76px 222px;
+  width: 60%;
+  height: 60%;
+  background: black;
+  font-size: 30px;
+}
+.btn {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 6px;
+  cursor: pointer;
+  /* background-color: transparent; */
+}
+.top {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.tr {
+  height: 180px;
+  letter-spacing: 6px;
+  border-bottom: 1px solid gray;
+}
+td {
+}
+.red {
+  color: red;
+}
+.table {
+  margin: 60px auto;
+  width: 750px;
+  height: 770px;
+  line-height: 1.8;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro",
+    "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝",
+    "MS PMincho", "ＭＳ 明朝", serif;
+  font-size: 14px;
+  border-collapse: collapse;
+  text-align: left;
+}
+th {
+  font-size: 16px;
+  padding-bottom: 32px;
+  padding-top: 54px;
+  text-align: center;
+  vertical-align: top;
+  width: 22%;
+}
+.bold {
+  font-weight: bold;
+  font-size: 18px;
+}
+.special {
+  height: 350px;
+}
+.form_btn {
+  background-color: #c09100;
+  width: 30%;
+  height: 45px;
+  margin-top: 20px;
+}
+.explain {
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro",
+    "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝",
+    "MS PMincho", "ＭＳ 明朝", serif;
+  font-size: 14px;
+  line-height: 1.8;
+  width: 600px;
+  height: 700px;
+  margin: 0 50px;
+  padding: 30px;
+}
+.boss {
+  background-color: #f6f6f6;
+}
+.form-control {
+  margin-bottom: 20px;
+  width: 800px;
+}
+.list {
+  font-size: 30px;
+}

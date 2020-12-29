@@ -1,0 +1,13 @@
+<header class="header">
+  <h1 class="header-left"><%= link_to  "西芳寺", root_path, class: "top" %> </h1>
+  <nav class="header_nav">
+    <ul class="header_ul">
+      <li class="header_li"><%= link_to  "西芳寺とは", "#",class: "header_link" %> </li>
+      <li class="header_li"><%= link_to  "参拝案内",guides_path,class: "header_link" %></li>
+      <li class="header_li"><%= link_to  "境内案内", "#",class: "header_link" %>
+      <li>
+      <li class="header_li"><%= link_to  "交通アクセス", accesses_path,class: "header_link" %></li>
+      <li class="header_li"><%= link_to  "申込み", new_user_session_path,class: "header_link reservation" %></li>
+    </ul>
+  </nav>
+</header>
